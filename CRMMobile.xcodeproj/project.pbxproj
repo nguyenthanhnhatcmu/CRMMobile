@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD4D9EAE1CFDE008009B6067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D9EAD1CFDE008009B6067 /* AppDelegate.swift */; };
+		CD4D9EB01CFDE008009B6067 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D9EAF1CFDE008009B6067 /* ViewController.swift */; };
+		CD4D9EB31CFDE008009B6067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4D9EB11CFDE008009B6067 /* Main.storyboard */; };
+		CD4D9EB51CFDE008009B6067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4D9EB41CFDE008009B6067 /* Assets.xcassets */; };
+		CD4D9EB81CFDE008009B6067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4D9EB61CFDE008009B6067 /* LaunchScreen.storyboard */; };
+		CD4D9EC31CFDE008009B6067 /* CRMMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D9EC21CFDE008009B6067 /* CRMMobileTests.swift */; };
+		CD4D9ECE1CFDE008009B6067 /* CRMMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D9ECD1CFDE008009B6067 /* CRMMobileUITests.swift */; };
+		CD4D9EE31CFDE0DF009B6067 /* CustomerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4D9EE21CFDE0DF009B6067 /* CustomerStoryboard.storyboard */; };
+		CD4D9EE51CFDE0F2009B6067 /* ContactStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4D9EE41CFDE0F2009B6067 /* ContactStoryboard.storyboard */; };
+		CD4D9EE71CFDE103009B6067 /* DealStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4D9EE61CFDE103009B6067 /* DealStoryboard.storyboard */; };
+		CD4D9EE91CFDE121009B6067 /* DealAttachProductStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4D9EE81CFDE121009B6067 /* DealAttachProductStoryboard.storyboard */; };
+		CD4D9EEC1CFDE2D1009B6067 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D9EEB1CFDE2D1009B6067 /* BaseViewController.swift */; };
+		CD4D9EEF1CFDF1B2009B6067 /* GeneralFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D9EEE1CFDF1B2009B6067 /* GeneralFunction.swift */; };
+		CD4D9EF11CFDF232009B6067 /* ActivityStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4D9EF01CFDF232009B6067 /* ActivityStoryboard.storyboard */; };
+		CD4D9EF51CFDF2D3009B6067 /* ListActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D9EF41CFDF2D3009B6067 /* ListActivityViewController.swift */; };
+		CD4D9EF71CFDF2EC009B6067 /* AddFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D9EF61CFDF2EC009B6067 /* AddFilterViewController.swift */; };
+		CD4D9EF91CFDF2F9009B6067 /* AddMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D9EF81CFDF2F9009B6067 /* AddMenuViewController.swift */; };
+		CD4D9EFC1CFE0455009B6067 /* ListActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D9EFB1CFE0455009B6067 /* ListActivityTableViewCell.swift */; };
+		CD95F93E1CFE8D92000498CA /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95F93D1CFE8D92000498CA /* CheckBox.swift */; };
+		CDCCD69D1CFF4CC2007DAAA8 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCCD69C1CFF4CC2007DAAA8 /* Section.swift */; };
+		CDCCD69F1CFF4D4D007DAAA8 /* SectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCCD69E1CFF4D4D007DAAA8 /* SectionData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD4D9EBF1CFDE008009B6067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD4D9EA21CFDE008009B6067 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4D9EA91CFDE008009B6067;
+			remoteInfo = CRMMobile;
+		};
+		CD4D9ECA1CFDE008009B6067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD4D9EA21CFDE008009B6067 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4D9EA91CFDE008009B6067;
+			remoteInfo = CRMMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD4D9EAA1CFDE008009B6067 /* CRMMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRMMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4D9EAD1CFDE008009B6067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD4D9EAF1CFDE008009B6067 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD4D9EB21CFDE008009B6067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD4D9EB41CFDE008009B6067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD4D9EB71CFDE008009B6067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD4D9EB91CFDE008009B6067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4D9EBE1CFDE008009B6067 /* CRMMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRMMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4D9EC21CFDE008009B6067 /* CRMMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMMobileTests.swift; sourceTree = "<group>"; };
+		CD4D9EC41CFDE008009B6067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4D9EC91CFDE008009B6067 /* CRMMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRMMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4D9ECD1CFDE008009B6067 /* CRMMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMMobileUITests.swift; sourceTree = "<group>"; };
+		CD4D9ECF1CFDE008009B6067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4D9EE21CFDE0DF009B6067 /* CustomerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomerStoryboard.storyboard; sourceTree = "<group>"; };
+		CD4D9EE41CFDE0F2009B6067 /* ContactStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ContactStoryboard.storyboard; sourceTree = "<group>"; };
+		CD4D9EE61CFDE103009B6067 /* DealStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DealStoryboard.storyboard; sourceTree = "<group>"; };
+		CD4D9EE81CFDE121009B6067 /* DealAttachProductStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DealAttachProductStoryboard.storyboard; sourceTree = "<group>"; };
+		CD4D9EEB1CFDE2D1009B6067 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CD4D9EEE1CFDF1B2009B6067 /* GeneralFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralFunction.swift; sourceTree = "<group>"; };
+		CD4D9EF01CFDF232009B6067 /* ActivityStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ActivityStoryboard.storyboard; sourceTree = "<group>"; };
+		CD4D9EF41CFDF2D3009B6067 /* ListActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListActivityViewController.swift; sourceTree = "<group>"; };
+		CD4D9EF61CFDF2EC009B6067 /* AddFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFilterViewController.swift; sourceTree = "<group>"; };
+		CD4D9EF81CFDF2F9009B6067 /* AddMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMenuViewController.swift; sourceTree = "<group>"; };
+		CD4D9EFB1CFE0455009B6067 /* ListActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListActivityTableViewCell.swift; sourceTree = "<group>"; };
+		CD95F93D1CFE8D92000498CA /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		CDCCD69C1CFF4CC2007DAAA8 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		CDCCD69E1CFF4D4D007DAAA8 /* SectionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD4D9EA71CFDE008009B6067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4D9EBB1CFDE008009B6067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4D9EC61CFDE008009B6067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD4D9EA11CFDE008009B6067 = {
+			isa = PBXGroup;
+			children = (
+				CD4D9EAC1CFDE008009B6067 /* CRMMobile */,
+				CD4D9EC11CFDE008009B6067 /* CRMMobileTests */,
+				CD4D9ECC1CFDE008009B6067 /* CRMMobileUITests */,
+				CD4D9EAB1CFDE008009B6067 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD4D9EAB1CFDE008009B6067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D9EAA1CFDE008009B6067 /* CRMMobile.app */,
+				CD4D9EBE1CFDE008009B6067 /* CRMMobileTests.xctest */,
+				CD4D9EC91CFDE008009B6067 /* CRMMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4D9EAC1CFDE008009B6067 /* CRMMobile */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D9EFA1CFE0426009B6067 /* CustomCell */,
+				CD4D9EED1CFDF14C009B6067 /* Extendtion */,
+				CD4D9EEA1CFDE2AF009B6067 /* Commond */,
+				CD4D9EDF1CFDE084009B6067 /* PrototypesDealAttachProduct */,
+				CD4D9EDE1CFDE077009B6067 /* PrototypesDeal */,
+				CD4D9EDD1CFDE05F009B6067 /* PrototypesContact */,
+				CD4D9EDC1CFDE049009B6067 /* PrototypesCustomer */,
+				CD4D9EDB1CFDE01A009B6067 /* PrototypesActivity */,
+				CD4D9EAD1CFDE008009B6067 /* AppDelegate.swift */,
+				CD4D9EAF1CFDE008009B6067 /* ViewController.swift */,
+				CD4D9EB11CFDE008009B6067 /* Main.storyboard */,
+				CD4D9EB41CFDE008009B6067 /* Assets.xcassets */,
+				CD4D9EB61CFDE008009B6067 /* LaunchScreen.storyboard */,
+				CD4D9EB91CFDE008009B6067 /* Info.plist */,
+			);
+			path = CRMMobile;
+			sourceTree = "<group>";
+		};
+		CD4D9EC11CFDE008009B6067 /* CRMMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D9EC21CFDE008009B6067 /* CRMMobileTests.swift */,
+				CD4D9EC41CFDE008009B6067 /* Info.plist */,
+			);
+			path = CRMMobileTests;
+			sourceTree = "<group>";
+		};
+		CD4D9ECC1CFDE008009B6067 /* CRMMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D9ECD1CFDE008009B6067 /* CRMMobileUITests.swift */,
+				CD4D9ECF1CFDE008009B6067 /* Info.plist */,
+			);
+			path = CRMMobileUITests;
+			sourceTree = "<group>";
+		};
+		CD4D9EDB1CFDE01A009B6067 /* PrototypesActivity */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D9EF31CFDF28B009B6067 /* ViewControllers */,
+				CD4D9EF21CFDF275009B6067 /* Storyboads */,
+			);
+			name = PrototypesActivity;
+			sourceTree = "<group>";
+		};
+		CD4D9EDC1CFDE049009B6067 /* PrototypesCustomer */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D9EE21CFDE0DF009B6067 /* CustomerStoryboard.storyboard */,
+			);
+			name = PrototypesCustomer;
+			sourceTree = "<group>";
+		};
+		CD4D9EDD1CFDE05F009B6067 /* PrototypesContact */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D9EE41CFDE0F2009B6067 /* ContactStoryboard.storyboard */,
+			);
+			name = PrototypesContact;
+			sourceTree = "<group>";
+		};
+		CD4D9EDE1CFDE077009B6067 /* PrototypesDeal */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D9EE61CFDE103009B6067 /* DealStoryboard.storyboard */,
+			);
+			name = PrototypesDeal;
+			sourceTree = "<group>";
+		};
+		CD4D9EDF1CFDE084009B6067 /* PrototypesDealAttachProduct */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D9EE81CFDE121009B6067 /* DealAttachProductStoryboard.storyboard */,
+			);
+			name = PrototypesDealAttachProduct;
+			sourceTree = "<group>";
+		};
+		CD4D9EEA1CFDE2AF009B6067 /* Commond */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D9EEB1CFDE2D1009B6067 /* BaseViewController.swift */,
+				CD4D9EEE1CFDF1B2009B6067 /* GeneralFunction.swift */,
+			);
+			name = Commond;
+			sourceTree = "<group>";
+		};
+		CD4D9EED1CFDF14C009B6067 /* Extendtion */ = {
+			isa = PBXGroup;
+			children = (
+				CD95F93D1CFE8D92000498CA /* CheckBox.swift */,
+			);
+			name = Extendtion;
+			sourceTree = "<group>";
+		};
+		CD4D9EF21CFDF275009B6067 /* Storyboads */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D9EF01CFDF232009B6067 /* ActivityStoryboard.storyboard */,
+			);
+			name = Storyboads;
+			sourceTree = "<group>";
+		};
+		CD4D9EF31CFDF28B009B6067 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D9EF41CFDF2D3009B6067 /* ListActivityViewController.swift */,
+				CD4D9EF61CFDF2EC009B6067 /* AddFilterViewController.swift */,
+				CD4D9EF81CFDF2F9009B6067 /* AddMenuViewController.swift */,
+				CDCCD69C1CFF4CC2007DAAA8 /* Section.swift */,
+				CDCCD69E1CFF4D4D007DAAA8 /* SectionData.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CD4D9EFA1CFE0426009B6067 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D9EFB1CFE0455009B6067 /* ListActivityTableViewCell.swift */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD4D9EA91CFDE008009B6067 /* CRMMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4D9ED21CFDE008009B6067 /* Build configuration list for PBXNativeTarget "CRMMobile" */;
+			buildPhases = (
+				CD4D9EA61CFDE008009B6067 /* Sources */,
+				CD4D9EA71CFDE008009B6067 /* Frameworks */,
+				CD4D9EA81CFDE008009B6067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRMMobile;
+			productName = CRMMobile;
+			productReference = CD4D9EAA1CFDE008009B6067 /* CRMMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD4D9EBD1CFDE008009B6067 /* CRMMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4D9ED51CFDE008009B6067 /* Build configuration list for PBXNativeTarget "CRMMobileTests" */;
+			buildPhases = (
+				CD4D9EBA1CFDE008009B6067 /* Sources */,
+				CD4D9EBB1CFDE008009B6067 /* Frameworks */,
+				CD4D9EBC1CFDE008009B6067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4D9EC01CFDE008009B6067 /* PBXTargetDependency */,
+			);
+			name = CRMMobileTests;
+			productName = CRMMobileTests;
+			productReference = CD4D9EBE1CFDE008009B6067 /* CRMMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD4D9EC81CFDE008009B6067 /* CRMMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4D9ED81CFDE008009B6067 /* Build configuration list for PBXNativeTarget "CRMMobileUITests" */;
+			buildPhases = (
+				CD4D9EC51CFDE008009B6067 /* Sources */,
+				CD4D9EC61CFDE008009B6067 /* Frameworks */,
+				CD4D9EC71CFDE008009B6067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4D9ECB1CFDE008009B6067 /* PBXTargetDependency */,
+			);
+			name = CRMMobileUITests;
+			productName = CRMMobileUITests;
+			productReference = CD4D9EC91CFDE008009B6067 /* CRMMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD4D9EA21CFDE008009B6067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Thanh Nhat";
+				TargetAttributes = {
+					CD4D9EA91CFDE008009B6067 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CD4D9EBD1CFDE008009B6067 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CD4D9EA91CFDE008009B6067;
+					};
+					CD4D9EC81CFDE008009B6067 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CD4D9EA91CFDE008009B6067;
+					};
+				};
+			};
+			buildConfigurationList = CD4D9EA51CFDE008009B6067 /* Build configuration list for PBXProject "CRMMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD4D9EA11CFDE008009B6067;
+			productRefGroup = CD4D9EAB1CFDE008009B6067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD4D9EA91CFDE008009B6067 /* CRMMobile */,
+				CD4D9EBD1CFDE008009B6067 /* CRMMobileTests */,
+				CD4D9EC81CFDE008009B6067 /* CRMMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD4D9EA81CFDE008009B6067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4D9EB81CFDE008009B6067 /* LaunchScreen.storyboard in Resources */,
+				CD4D9EB51CFDE008009B6067 /* Assets.xcassets in Resources */,
+				CD4D9EF11CFDF232009B6067 /* ActivityStoryboard.storyboard in Resources */,
+				CD4D9EE51CFDE0F2009B6067 /* ContactStoryboard.storyboard in Resources */,
+				CD4D9EE71CFDE103009B6067 /* DealStoryboard.storyboard in Resources */,
+				CD4D9EE91CFDE121009B6067 /* DealAttachProductStoryboard.storyboard in Resources */,
+				CD4D9EE31CFDE0DF009B6067 /* CustomerStoryboard.storyboard in Resources */,
+				CD4D9EB31CFDE008009B6067 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4D9EBC1CFDE008009B6067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4D9EC71CFDE008009B6067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD4D9EA61CFDE008009B6067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4D9EF51CFDF2D3009B6067 /* ListActivityViewController.swift in Sources */,
+				CD4D9EEF1CFDF1B2009B6067 /* GeneralFunction.swift in Sources */,
+				CDCCD69F1CFF4D4D007DAAA8 /* SectionData.swift in Sources */,
+				CD95F93E1CFE8D92000498CA /* CheckBox.swift in Sources */,
+				CD4D9EF91CFDF2F9009B6067 /* AddMenuViewController.swift in Sources */,
+				CD4D9EB01CFDE008009B6067 /* ViewController.swift in Sources */,
+				CDCCD69D1CFF4CC2007DAAA8 /* Section.swift in Sources */,
+				CD4D9EAE1CFDE008009B6067 /* AppDelegate.swift in Sources */,
+				CD4D9EF71CFDF2EC009B6067 /* AddFilterViewController.swift in Sources */,
+				CD4D9EFC1CFE0455009B6067 /* ListActivityTableViewCell.swift in Sources */,
+				CD4D9EEC1CFDE2D1009B6067 /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4D9EBA1CFDE008009B6067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4D9EC31CFDE008009B6067 /* CRMMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4D9EC51CFDE008009B6067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4D9ECE1CFDE008009B6067 /* CRMMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD4D9EC01CFDE008009B6067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4D9EA91CFDE008009B6067 /* CRMMobile */;
+			targetProxy = CD4D9EBF1CFDE008009B6067 /* PBXContainerItemProxy */;
+		};
+		CD4D9ECB1CFDE008009B6067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4D9EA91CFDE008009B6067 /* CRMMobile */;
+			targetProxy = CD4D9ECA1CFDE008009B6067 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD4D9EB11CFDE008009B6067 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4D9EB21CFDE008009B6067 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4D9EB61CFDE008009B6067 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4D9EB71CFDE008009B6067 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4D9ED01CFDE008009B6067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD4D9ED11CFDE008009B6067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD4D9ED31CFDE008009B6067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRMMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.smartdev.CRMMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD4D9ED41CFDE008009B6067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRMMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.smartdev.CRMMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD4D9ED61CFDE008009B6067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CRMMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.smartdev.CRMMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRMMobile.app/CRMMobile";
+			};
+			name = Debug;
+		};
+		CD4D9ED71CFDE008009B6067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CRMMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.smartdev.CRMMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRMMobile.app/CRMMobile";
+			};
+			name = Release;
+		};
+		CD4D9ED91CFDE008009B6067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CRMMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.smartdev.CRMMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CRMMobile;
+			};
+			name = Debug;
+		};
+		CD4D9EDA1CFDE008009B6067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CRMMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.smartdev.CRMMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CRMMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD4D9EA51CFDE008009B6067 /* Build configuration list for PBXProject "CRMMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4D9ED01CFDE008009B6067 /* Debug */,
+				CD4D9ED11CFDE008009B6067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4D9ED21CFDE008009B6067 /* Build configuration list for PBXNativeTarget "CRMMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4D9ED31CFDE008009B6067 /* Debug */,
+				CD4D9ED41CFDE008009B6067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4D9ED51CFDE008009B6067 /* Build configuration list for PBXNativeTarget "CRMMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4D9ED61CFDE008009B6067 /* Debug */,
+				CD4D9ED71CFDE008009B6067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4D9ED81CFDE008009B6067 /* Build configuration list for PBXNativeTarget "CRMMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4D9ED91CFDE008009B6067 /* Debug */,
+				CD4D9EDA1CFDE008009B6067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD4D9EA21CFDE008009B6067 /* Project object */;
+}
